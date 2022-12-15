@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  @layer base {
+    html,
+    body,
+    #root {
+      @apply h-full bg-zinc-50;
+      font-family: 'Karla', sans-serif;
+    }
+  }
+}
